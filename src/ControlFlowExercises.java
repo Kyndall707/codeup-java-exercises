@@ -34,28 +34,28 @@ public class ControlFlowExercises {
 //        Create a do-while loop that starts at 2, and displays the number squared on
 //        each line while the number is less than 1,000,000. Output should equal:
 
-        //        long i = 2; //if you use an int itll will overflow and break and just print a lot of 0's
-        //        do{
-        //          i = i * i;
-        //           System.out.println(i);
-        //        }while(i <= 1000000);
+                //        long i = 2; //if you use an int itll will overflow and break and just print a lot of 0's
+                //        do{
+                //          i = i * i;
+                //           System.out.println(i);
+                //        }while(i <= 1000000);
 
-//        c. For
-//        Refactor the previous two exercises to use a for loop instead.
+        //        c. For
+        //        Refactor the previous two exercises to use a for loop instead.
 
-        //        Question 1 refactored
-           //        for(int i = 1; i <= 15; i++){  //in the () is (start; finish; whats changing);
-            //            System.out.println(i);
-            //        }
+                //        Question 1 refactored
+                   //        for(int i = 1; i <= 15; i++){  //in the () is (start; finish; whats changing);
+                    //            System.out.println(i);
+                    //        }
 
-        //        Question 2 refactored
-//                    for(int i = 2; i <= 100; i += 2){  //in the () is (start; finish; whats changing);
-//                        System.out.println(i);
-//                    }
-        //        Question 3 refactored
-//                    for(int i = 100; i >= -10; i -= 5){  //in the () is (start; finish; whats changing);
-//                        System.out.println(i);
-//                    }
+                //        Question 2 refactored
+        //                    for(int i = 2; i <= 100; i += 2){  //in the () is (start; finish; whats changing);
+        //                        System.out.println(i);
+        //                    }
+                //        Question 3 refactored
+        //                    for(int i = 100; i >= -10; i -= 5){  //in the () is (start; finish; whats changing);
+        //                        System.out.println(i);
+        //                    }
 
 //       2. Fizzbuzz
 
@@ -67,27 +67,27 @@ public class ControlFlowExercises {
 //        For the multiples of five: print “Buzz”.
 //        For numbers which are multiples of both three and five: print “FizzBuzz”.
 
-//        for(int i = 1; i <= 100; i++) {
-//            if ((i % 3 == 0 && i % 5 == 0)) {
-//                System.out.println("FizzBuzz");
-//            } else if ((i % 5) == 0) {
-//                System.out.println("Buzz");
-//            } else if ((i % 3) == 0) {
-//                System.out.println("Fizz");
-//            } else {
-//                System.out.println(i);
-//            }
-//        }
+            //        for(int i = 1; i <= 100; i++) {
+            //            if ((i % 3 == 0 && i % 5 == 0)) {
+            //                System.out.println("FizzBuzz");
+            //            } else if ((i % 5) == 0) {
+            //                System.out.println("Buzz");
+            //            } else if ((i % 3) == 0) {
+            //                System.out.println("Fizz");
+            //            } else {
+            //                System.out.println(i);
+            //            }
+            //        }
 
 
-//            as a switch statement
-//        for (int i = 1; i <= 100; i++){
-//            int res = i % 3;
-//            int res2 = i % 5;
-//            switch (res) {
-//                case 0:
-//            }
-//        }
+            //            as a switch statement
+            //        for (int i = 1; i <= 100; i++){
+            //            int res = i % 3;
+            //            int res2 = i % 5;
+            //            switch (res) {
+            //                case 0:
+            //            }
+            //        }
 
 
 //        3. Display a table of powers.
@@ -98,20 +98,20 @@ public class ControlFlowExercises {
 //        Assume that the user will enter valid data.
 //        Only continue if the user agrees to.
 
-            //        Scanner input = new Scanner(System.in);
+                    //        Scanner input = new Scanner(System.in);
 
-            //        System.out.print("What number would you like to go up to?: ");
-            //        int number = Integer.parseInt(input.nextLine());
+                    //        System.out.print("What number would you like to go up to?: ");
+                    //        int number = Integer.parseInt(input.nextLine());
 
-            //        System.out.println("number | squared | cubed");
-            //        System.out.println("------ | ------- | -----");
+                    //        System.out.println("number | squared | cubed");
+                    //        System.out.println("------ | ------- | -----");
 
-            //        for(int counter = 1; counter <= number; counter++){
-            //            System.out.println(String.format("%-6d | %-7d | %-5d", counter, (int) Math.pow(counter, 2), (int) Math.pow(counter, 3)));
+                    //        for(int counter = 1; counter <= number; counter++){
+                    //            System.out.println(String.format("%-6d | %-7d | %-5d", counter, (int) Math.pow(counter, 2), (int) Math.pow(counter, 3)));
 
-                            //putting (int) infront of mathpow itll change them into intergers not numbers
-                            //the -7 infront of the d in %-7d makes there be space
-            //        }
+                                    //putting (int) infront of mathpow itll change them into intergers not numbers
+                                    //the -7 infront of the d in %-7d makes there be space
+                    //        }
 
 //        4. Convert given number grades into letter grades.
 
@@ -122,25 +122,25 @@ public class ControlFlowExercises {
 //        The application should only continue if the user agrees to.
 
 
-        //        Scanner input = new Scanner(System.in);
+                //        Scanner input = new Scanner(System.in);
 
-        //        System.out.println("Please enter your grade: ");
+                //        System.out.println("Please enter your grade: ");
 
-        //        int grade = Integer.parseInt(input.nextLine());
+                //        int grade = Integer.parseInt(input.nextLine());
 
-        //        String gradeLetter = "";
+                //        String gradeLetter = "";
 
-        //        if(grade <= 100 && grade >= 88){
-        //            gradeLetter = "A";
-        //        } else if (grade <= 87 && grade >= 80){
-        //            gradeLetter = "B";
-        //        } else if (grade <= 79 && grade >= 67){
-        //            gradeLetter = "C";
-        //        }else if (grade <= 66 && grade >= 60){
-        //            gradeLetter = "D";
-        //        }else if (grade <= 59 && grade >= 0){
-        //            gradeLetter = "F";
-        //        }
-        //        System.out.println(gradeLetter);
+                //        if(grade <= 100 && grade >= 88){
+                //            gradeLetter = "A";
+                //        } else if (grade <= 87 && grade >= 80){
+                //            gradeLetter = "B";
+                //        } else if (grade <= 79 && grade >= 67){
+                //            gradeLetter = "C";
+                //        }else if (grade <= 66 && grade >= 60){
+                //            gradeLetter = "D";
+                //        }else if (grade <= 59 && grade >= 0){
+                //            gradeLetter = "F";
+                //        }
+                //        System.out.println(gradeLetter);
     }
 }
