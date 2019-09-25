@@ -2,16 +2,16 @@ public class Person {
     private String name;
 
 
-    public String getName(String args){
+    public String getName(){
         return this.name;
     }
 
-    public void setName(String args){
+    public void setName(String name){
         this.name = name;
     }
 
     public void sayHello(){
-        System.out.println("Hello " + this.name);
+        System.out.println("Hello " + this.getName());
     }
 
     //        Person person1 = new Person("John");

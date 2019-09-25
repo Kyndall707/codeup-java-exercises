@@ -4,6 +4,8 @@ public class MethodsExercises {
         Scanner input = new Scanner(System.in);
         System.out.println("How many sides does your dice have?");
         String userInput = input.nextLine();
+
+
     }
 
 //
@@ -137,7 +139,7 @@ public class MethodsExercises {
 //        double x = Math.random();
 //        return x;
 
-    }
+//    }
 //    public void rollDice(String[] args){
 //        Scanner input = new Scanner(System.in);
 //        System.out.println("How many sides does your dice have?");
