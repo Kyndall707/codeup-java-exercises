@@ -38,12 +38,12 @@ public class Input {
     public int getInt(int min, int max){
         System.out.println("Give me a number");
         int number = Integer.parseInt(this.scanner.nextLine());
-        if(number >= min && number <= max){
-            return number;
-        } else {
-            System.out.println("out of range");
-            return getInt(min, max);
-        }
+            if (number >= min && number <= max) {
+                return number;
+            } else {
+                System.out.println("out of range");
+                return getInt(min, max);
+            }
     }
 
     public int getInt(){
